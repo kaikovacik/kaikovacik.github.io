@@ -64,29 +64,6 @@
 			top: 0;
 		}
 
-/* Skills */
-
-	#skills {
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-		background: url("../../images/skills.jpg");
-		background-size: cover;
-	}
-
-		#skills .content {
-			position: relative;
-			z-index: 1;
-		}
-
-		#skills.left:before, #skills.right:after {
-			content: '';
-			background: url("images/overlay.png");
-			width: 100%;
-			height: 100%;
-			position: absolute;
-			left: 0;
-			top: 0;
-		}
-
 /* About */
 
 	#about {
@@ -118,12 +95,12 @@
 		background-size: cover;
 	}
 
-		#about .content {
+		#skills .content {
 			position: relative;
 			z-index: 1;
 		}
 
-		#about.left:before, #about.right:after {
+		#skills.left:before, #skills.right:after {
 			content: '';
 			background: url("images/overlay.png");
 			width: 100%;
@@ -141,12 +118,12 @@
 		background-size: cover;
 	}
 
-		#about .content {
+		#education .content {
 			position: relative;
 			z-index: 1;
 		}
 
-		#about.left:before, #about.right:after {
+		#education.left:before, #education.right:after {
 			content: '';
 			background: url("images/overlay.png");
 			width: 100%;
@@ -164,12 +141,12 @@
 		background-size: cover;
 	}
 
-		#about .content {
+		#awards .content {
 			position: relative;
 			z-index: 1;
 		}
 
-		#about.left:before, #about.right:after {
+		#awards.left:before, #awards.right:after {
 			content: '';
 			background: url("images/overlay.png");
 			width: 100%;
@@ -187,12 +164,12 @@
 		background-size: cover;
 	}
 
-		#about .content {
+		#interests .content {
 			position: relative;
 			z-index: 1;
 		}
 
-		#about.left:before, #about.right:after {
+		#interests.left:before, #interests.right:after {
 			content: '';
 			background: url("images/overlay.png");
 			width: 100%;

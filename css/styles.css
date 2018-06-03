@@ -7,6 +7,10 @@
  */
 
 /* Type Selectors ---------- */
+html,
+body {
+    overflow-x: hidden; 
+}
 
 body {
 	/*font-family: 'Helvetica', Sans-Serif;*/
@@ -94,6 +98,7 @@ h2 {
 
 .title {
 	margin: 20px;
+	text-transform: capitalize;
   	text-shadow: 0 1px 0 #ccc,
                	 0 2px 0 #c9c9c9,
                	 0 3px 0 #bbb,
@@ -186,7 +191,27 @@ h2 {
 }
 
 @media (max-width: 560px) {
+/*	.nav-bar {
+		display: none;
+	}*/
+
+	.nav-button {
+		padding: 14px 8px;
+		font-size: 0.85em;
+	}
+
+	.title {
+		margin-top: 25%;
+		font-size: 4em;
+	}
+
 	.portrait {
 		width: 90%;
 	}
 }
+
+/*@media (max-width: 430px) {
+	.nav-bar {
+		display: none;
+	}
+}*/

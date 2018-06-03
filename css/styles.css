@@ -183,12 +183,6 @@ h2 {
 		box-shadow: inset 0px 2px 2px black;
 		background-color: #303030;
 	}
-
-	#logo,
-	#about .title-strip,
-	#skills .title-strip {
-		background-attachment: initial;
-	}
 }
 
 @media (max-width: 560px) {

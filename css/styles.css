@@ -239,10 +239,6 @@ footer {
 	font-size: 1em;
 	/* text-align: center; */
 }
-.card:hover {
-	box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.7);
-	transform: scale(1.05);
-}
 
 .reg-list {
 	margin-left: 5em;
